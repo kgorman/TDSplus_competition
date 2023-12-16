@@ -27,7 +27,7 @@ A TC consists of a latitude/longitude tuple and an integer to indicate its TC nu
 
 `{ _tc: 1, lat:38.573315,  lon: -109.549843}`
 
-A computer program iterates over each .gpx file, calculating the distance to each point using the Haversine Formula. The points closest to the TC point are chosen, and that point's GPS time is recorded as the official time the competitor passed the TC. This time is then compared to the optimal time for points calculation.
+A computer program iterates over each .gpx file, calculating the distance to each point using the [Haversine](https://en.wikipedia.org/wiki/Haversine_formula) Formula. The points closest to the TC point are chosen, and that point's GPS time is recorded as the official time the competitor passed the TC. This time is then compared to the optimal time for points calculation.
 
 `<rtept lat="42.444773" lon="-71.108882">
  <ele>62.788800</ele>
